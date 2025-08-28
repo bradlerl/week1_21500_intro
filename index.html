@@ -9,7 +9,7 @@
     <label>What language was created to add interactivity to the Web : <input class="language" type="text"></input></label>
 </body>
     <script>
-        alert(document.querySelector('.language'));
+        document.querySelector('.language');
         // I'm just going to use var for now 
         var txtLanguage = document.querySelector('.language');
         txtLanguage.addEventListener('focusout',
@@ -17,4 +17,5 @@
             var choiceOfLib = prompt("What is your favorite library (Vue, React, jQuery)...?");
             alert(choiceOfLib);
     </script>
+
 </html>
